@@ -55,6 +55,7 @@ def query_crossref_by_doi(doi, mailto, timeout=30):
         return None
     return None
 
+
 # pick a candidate title from the PDF (first sizable line(s))
 def extract_title_candidate_from_text(full_text):
     if not full_text:
